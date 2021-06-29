@@ -4,7 +4,7 @@
 """
 
 
-class TestAmenity(unittest.TestCase):
+class TestState(unittest.TestCase):
     """
        Unittest for class State - class State
     """
