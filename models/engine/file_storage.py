@@ -51,11 +51,10 @@ class FileStorage:
         """
         try:
             with open(self.__file_path, 'r', encoding='utf-8') as my_file:
-                objects = json.load(my_file)
+                obj = json.load(my_file)
 
-            for key in objects:
-                self.__objects[key] = (classes[objects[key]["__class__"]]
-                                       (**objects[key]))
+            for key in obj:
+                self.__obj[key] = classes[obj[key]['__class__']](**obj[key])
 
         except FileNotFoundError:
             pass
