@@ -11,14 +11,6 @@ from models.amenity import Amenity
 from models.place import Place
 from models.review import Review
 
-classes = {'BaseModel': BaseModel,
-           'User': User,
-           'State': State,
-           'City' : City,
-           'Amenity': Amenity,
-           'Place': Place,
-           'Review': Review}
-
 class FileStorage:
     """
     Class FileStorage that serializes instances to a JSON file and
@@ -58,10 +50,10 @@ class FileStorage:
         """
         try:
             with open(self.__file_path, 'r', encoding='utf-8') as my_file:
-                obj = json.load(my_file)
+                objects = json.load(my_file)
 
-        for key in obj:
-              self.__obj[key] = (classes[obj[key]["__class__"]](**obj[key]
-
+            for key, value in objects.items():
+                if value['__class__'] == 'BaseModel':
+                    FileStorage.__objects[key] = User(**value)
         except FileNotFoundError:
             pass
