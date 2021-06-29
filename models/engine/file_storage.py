@@ -11,6 +11,13 @@ from models.amenity import Amenity
 from models.place import Place
 from models.review import Review
 
+classes = {'BaseModel': BaseModel,
+           'User': User,
+           'State': State,
+           'City' : City,
+           'Amenity': Amenity,
+           'Place': Place,
+           'Review': Review}
 
 class FileStorage:
     """
@@ -53,8 +60,8 @@ class FileStorage:
             with open(self.__file_path, 'r', encoding='utf-8') as my_file:
                 obj = json.load(my_file)
 
-            for key, value in objects.items():
-                if value['__class__'] == 'BaseModel':
-                    FileStorage.__objects[key] = User(**value)
+        for key in obj:
+              self.__obj[key] = (classes[obj[key]["__class__"]](**obj[key]
+
         except FileNotFoundError:
             pass
