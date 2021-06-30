@@ -1,6 +1,6 @@
 # AirBnB Clone - The Console :robot:
 
-![alt text](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20210629%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210629T145543Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d80b99236107d341b9ed5e4b402e20c50d74e517cd1a8d16a64a14501271b823)
+![alt text](https://acortar.link/NFinx)
 
 The AirBnb console is a project tha its created
 
@@ -40,6 +40,7 @@ This project is interpreted using python3 (version 3.4)
 * ```destroy```- Deletes an instance based on the class name and id save, save the change into the JSON file
 * ```all```- Prints all string representation of all instances based or not on the class name
 * ```update```- Updates an instance based on the class name and id by adding or updating attribute, save the change into the JSON file
+
 ```models/``` directory contans classes used for this project:
 base_model.py - The BaseModel class from which future classes will be derived
 
