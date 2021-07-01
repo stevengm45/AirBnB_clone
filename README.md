@@ -1,8 +1,8 @@
 # AirBnB Clone - The Console :robot:
 
-![enter image description here](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN/20210701/us-east-1/s3/aws4_request&X-Amz-Date=20210701T011309Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=5551e71ae27fef0f00d48ec815bcac4265c56ca0d494639818a4f03a011faa43)
+##Description
 
-The AirBnb console is a project tha its created
+The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of the project is to deploy on your server a simple copy of the AirBnB website.
 
 ### Funcitionalities:
 
