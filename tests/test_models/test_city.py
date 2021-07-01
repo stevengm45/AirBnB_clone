@@ -37,8 +37,8 @@ class TestCity(unittest.TestCase):
         instance.save()
         new_date_created = instance.created_at
         new_date_updated = instance.updated_at
-        self.assertNotEqual(old_date_updated, new_date_updated)
         self.assertEqual(old_date_created, new_date_created)
+        self.assertNotEqual(old_date_updated, new_date_updated)
 
     def test_to_dict(self):
         """Test to prove if the return is type dict and the
