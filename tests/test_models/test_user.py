@@ -4,6 +4,7 @@
 """
 import unittest
 
+
 class TestUser(unittest.TestCase):
     """
        Unittest for class User - class User
