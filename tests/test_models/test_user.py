@@ -1,37 +1,37 @@
 #!/usr/bin/python3
 """
-   Amenity tests
+   User tests
 """
-from models.amenity import Amenity
+from models.user import User
 import unittest
 
 
-class TestAmenity(unittest.TestCase):
+class TestUser(unittest.TestCase):
     """
-       Unittest for class Amenity - class Amenity
+       Unittest for class User - class User
     """
     def test_instantiation(self):
         """Test to prove the instantiation of an
-        object class Amenity
+        object class User
         """
-        instance = Amenity()
-        self.assertEqual(Amenity, type(instance))
+        instance = User()
+        self.assertEqual(User, type(instance))
 
     def test_id(self):
         """Test to prove that ids are different"""
-        id_a = Amenity()
-        id_b = Amenity()
+        id_a = User()
+        id_b = User()
         self.assertNotEqual(id_a, id_b)
 
     def test__str__(self):
         """Test to prove that the return is a string"""
-        instance = Amenity()
+        instance = User()
         self.assertTrue(instance.__str__(), type(str))
 
     def test_to_save(self):
         """Test to prove the datatime of creation and update
         """
-        instance = Amenity()
+        instance = User()
         old_date_created = instance.created_at
         old_date_updated = instance.updated_at
         instance.save()
@@ -44,8 +44,8 @@ class TestAmenity(unittest.TestCase):
         """Test to prove if the return is type dict and the
            values are different
         """
-        model_a = Amenity()
-        model_b = Amenity()
+        model_a = User()
+        model_b = User()
         model_dict_a = model_a.to_dict()
         model_dict_b = model_b.to_dict()
         self.assertNotEqual(model_a.created_at, model_b.created_at)
