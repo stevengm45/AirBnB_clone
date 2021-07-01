@@ -11,7 +11,7 @@ The console is the first segment of the AirBnB project at Holberton School that 
 * Update attributes of an object
 * Destroy an object
 
-![diagram image](https://github.com/stevengm45/AirBnB_clone/blob/main/images/diagram.jpg?width=474&height=436)
+Diagram here: [:)](https://github.com/stevengm45/AirBnB_clone/blob/main/images/diagram.jpg)
 
 ## Table of Content
 * Environment
@@ -93,7 +93,7 @@ Steven Gonzalez - [GitHub](https://github.com/stevengm45)
 ## License
 Public Domain
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDE1NTQ3MzEsMTM0NDU5NzEwMSwxNT
-k1NTE3NjcyLDcxNzczNTMwOCwtMzg4NTU2OTUwLC0xNzM1MjM1
-MjM0XX0=
+eyJoaXN0b3J5IjpbMTU2Njg0MTQwNCwxMzQ0NTk3MTAxLDE1OT
+U1MTc2NzIsNzE3NzM1MzA4LC0zODg1NTY5NTAsLTE3MzUyMzUy
+MzRdfQ==
 -->
