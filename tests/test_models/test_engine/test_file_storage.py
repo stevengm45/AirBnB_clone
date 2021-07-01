@@ -2,7 +2,6 @@
 """
    FileStorage tests
 """
-import unittest
 
 
 class TestFileStorage(unittest.TestCase):
