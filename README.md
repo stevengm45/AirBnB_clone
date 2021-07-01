@@ -1,5 +1,6 @@
 # AirBnB Clone - The Console :robot:
 
+
 ## Description
 
 The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of the project is to deploy on your server a simple copy of the AirBnB website.
@@ -91,5 +92,5 @@ Steven Gonzalez - [GitHub](https://github.com/stevengm45)
 ## License
 Public Domain
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3NzM1MzA4XX0=
+eyJoaXN0b3J5IjpbLTE3MzUyMzUyMzRdfQ==
 -->
