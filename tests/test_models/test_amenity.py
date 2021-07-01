@@ -2,7 +2,6 @@
 """
    Amenity tests
 """
-import unittest
 
 
 class TestAmenity_methods(unittest.TestCase):

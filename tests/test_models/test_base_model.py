@@ -2,7 +2,6 @@
 """
    BaseModel tests
 """
-import unittest
 
 
 class TestBaseModel_methods(unittest.TestCase):

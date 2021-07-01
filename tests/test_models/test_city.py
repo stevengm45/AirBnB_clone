@@ -2,7 +2,6 @@
 """
    City tests
 """
-import unittest
 
 
 class TestCity(unittest.TestCase):

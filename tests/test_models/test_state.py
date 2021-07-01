@@ -2,7 +2,6 @@
 """
    State tests
 """
-import unittest
 
 
 class TestState(unittest.TestCase):

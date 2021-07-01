@@ -2,7 +2,6 @@
 """
    Review tests
 """
-import unittest
 
 
 class TestReview(unittest.TestCase):

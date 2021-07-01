@@ -2,7 +2,6 @@
 """
    Place tests
 """
-import unittest
 
 
 class TestPlace(unittest.TestCase):
