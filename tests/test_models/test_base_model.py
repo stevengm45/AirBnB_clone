@@ -11,6 +11,11 @@ class TestBaseModel(unittest.TestCase):
     """
        Unittest for class BaseModel
     """
+    def test_basemodel_instantiation(self):
+        """Test to prove the correct instantiation"""
+        instance = BaseModel()
+        self.assertEqual(BaseModel, type(instance))
+
     def test_id(self):
         """Test to prove that ids are different"""
         id_a = BaseModel()
