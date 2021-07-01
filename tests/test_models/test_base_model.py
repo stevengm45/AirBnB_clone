@@ -5,7 +5,7 @@
 import unittest
 
 
-class TestBaseModel(unittest.TestCase):
+class TestBaseModel_methods(unittest.TestCase):
     """
        Unittest for class BaseModel
     """

@@ -5,7 +5,7 @@
 import unittest
 
 
-class TestFileStorage(unittest.TestCase):
+class TestFileStorage_methods(unittest.TestCase):
     """
        Unittest for class FileStorage - class FileStorage
     """

@@ -5,7 +5,7 @@
 import unittest
 
 
-class TestAmenity(unittest.TestCase):
+class TestAmenity_methods(unittest.TestCase):
     """
        Unittest for class Amenity - class Amenity
     """
