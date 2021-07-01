@@ -1,5 +1,4 @@
 # AirBnB Clone - The Console :robot:
-![enter image description here](https://holberton.enterprise.slack.com/files/U01MT1S4XQV/F026ZABL9GU/untitled.jpg)
 
 ## Description
 
@@ -92,5 +91,6 @@ Steven Gonzalez - [GitHub](https://github.com/stevengm45)
 ## License
 Public Domain
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODU1Njk1MCwtMTczNTIzNTIzNF19
+eyJoaXN0b3J5IjpbNzE3NzM1MzA4LC0zODg1NTY5NTAsLTE3Mz
+UyMzUyMzRdfQ==
 -->
