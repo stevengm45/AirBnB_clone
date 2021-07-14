@@ -24,7 +24,8 @@
 }
 .places h2 {
     font-size: 30px;
-    text-align: center;
+    margin: 0 0 0 0;
+    align-self: center;
 }
 .price_by_night {
     color: #FF5A5F;
@@ -44,8 +45,7 @@
 .price_by_night p {
     margin: 0 0 0 0;
 }
-.information {
-    
+.information {    
     height: 80px;
     width: 100%;
     border-top: #DDDDDD solid 1px;
